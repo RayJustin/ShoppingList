@@ -1,0 +1,53 @@
+body {
+	background-image: url("../images/shopping-list-background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main {
+	position: relative;
+	margin: auto;
+	top: 40px;
+	width: 550px;
+	min-height: 400px;
+	height: auto;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+.title {
+	width: 50%;
+	float: right;
+	padding-right: 100px;
+}
+.input {
+	border: 1px solid black;
+	width: 300px;
+	height: 30px;
+	text-align: left;
+	margin-left: 100px;
+	font-size: 26px;
+	display: inline-block;
+}
+.shoppingcart {
+	width: 80px;
+	height: 80px;
+	padding-left: 85px;
+}
+.button {
+	padding-bottom: 3px;
+    padding-left: 5px;
+}
+li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style: none;
+}
+.list {
+	padding-left: 85px;
+}
+span {
+	padding-left: 10px;
+}
+
+
+
