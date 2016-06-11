@@ -20,13 +20,16 @@ $('.input').keydown(function(e){
 	if(e.which == 13){
 		addItem();
 }});
-
 });
 
 
 function addItem() {
-	$('ul.list').prepend('<li><i class="fa fa-check"> '+ $('.input').val() +' </li>')
-	$('.input').val('')
+	if($('.input').val().trim()!=""){
+
+
+		$('ul.list').prepend('<li><i class="fa fa-check"></i>'+ $('.input').val() +' </li>');
+		$('.input').val('');
+	}
 }
 
 
