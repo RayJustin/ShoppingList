@@ -33,14 +33,11 @@ body {
 	height: 80px;
 	padding-left: 85px;
 }
-.button {
-	padding-bottom: 3px;
-    padding-left: 5px;
-}
 li {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	list-style: none;
+	font-size: 1.5em;
 }
 .list {
 	padding-left: 85px;
@@ -49,5 +46,17 @@ span {
 	padding-left: 10px;
 }
 
+.fa, .add, .delete {
+	cursor: pointer;
+}
+
+.fa-check {
+	margin-right: 10px;
+}
+
+li.checked {
+	text-decoration: line-through;
+	color: grey;
+}
 
 
